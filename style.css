@@ -37,8 +37,9 @@ nav {
 
 .song-container {
     width: 90%;
-    z-index: 4;
-}
+    
+    margin-bottom: 100px;
+    margin-left: 150px;}
 
 footer {
     height: 100px;
