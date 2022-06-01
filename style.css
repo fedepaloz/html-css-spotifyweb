@@ -7,4 +7,43 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+
+}
+
+header {
+    background-color: bisque;
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    z-index: -1;
+}
+
+
+main {
+    /* display: flex; */
+    /* max-height: 100vh; */
+    display: flex;
+    
+}
+
+nav {
+    width: 10%;
+    background-color: burlywood;
+    height: 100vh;
+    position: fixed;
+   }
+
+
+.song-container {
+    width: 90%;
+    z-index: 4;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkcyan;
+    position:fixed ; bottom: 0;
+    z-index: 1;
 }
