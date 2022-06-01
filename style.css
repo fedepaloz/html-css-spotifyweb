@@ -16,7 +16,7 @@ header {
     width: 100%;
     min-height: 100px;
     position: fixed;
-    z-index: -1;
+    
 }
 
 
@@ -24,27 +24,29 @@ main {
     /* display: flex; */
     /* max-height: 100vh; */
     display: flex;
-    
+
 }
 
 nav {
-    width: 10%;
+    width: 15%;
     background-color: burlywood;
     height: 100vh;
     position: fixed;
-   }
+}
 
 
 .song-container {
-    width: 90%;
-    
+    width: calc(100% - 15%);
+    margin-top: 100px;
+    margin-left: 15%;
     margin-bottom: 100px;
-    margin-left: 150px;}
+}
 
 footer {
     height: 100px;
     width: 100%;
     background-color: darkcyan;
-    position:fixed ; bottom: 0;
-    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    
 }
