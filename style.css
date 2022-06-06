@@ -7,46 +7,47 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    height: 100vh;
+
 
 }
 
-header {
-    background-color: bisque;
-    width: 100%;
-    min-height: 100px;
-    position: fixed;
-    
-}
 
 
-main {
-    /* display: flex; */
-    /* max-height: 100vh; */
-    display: flex;
 
-}
+.upper-content {
 
-nav {
-    width: 15%;
-    background-color: burlywood;
-    height: 100vh;
-    position: fixed;
-}
+    background-color: aquamarine;
 
-
-.song-container {
-    width: calc(100% - 15%);
-    margin-top: 100px;
-    margin-left: 15%;
-    margin-bottom: 100px;
+    position: relative;
+    height: calc(100vh - 100px);
 }
 
 footer {
     height: 100px;
-    width: 100%;
-    background-color: darkcyan;
-    position: fixed;
+
+    background-color: blueviolet;
+}
+
+.sidebar {
+    position: absolute;
+    width: 230px;
+    top: 0;
+    left: 0;
     bottom: 0;
-    
+    background-color: rgb(43, 226, 52);
+}
+
+main {
+    height: 100%;
+    background-color: violet;
+    margin-left: 230px;
+    overflow-y: auto;
+
+}
+
+header {
+    height: 80px;
+    background-color: yellow;
+    position: sticky;
+    top: 0;
 }
