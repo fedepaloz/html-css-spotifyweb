@@ -11,9 +11,6 @@ body {
 
 }
 
-
-
-
 .upper-content {
 
     background-color: aquamarine;
@@ -25,7 +22,7 @@ body {
 footer {
     height: 100px;
 
-    background-color: blueviolet;
+    background-color: #282828;
 }
 
 .sidebar {
@@ -34,20 +31,40 @@ footer {
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: rgb(43, 226, 52);
+    background-color: black;
 }
 
 main {
     height: 100%;
-    background-color: violet;
+
     margin-left: 230px;
     overflow-y: auto;
-
+    background-color: #141922;
 }
 
 header {
     height: 80px;
-    background-color: yellow;
+    background-color: black;
     position: sticky;
     top: 0;
+    text-align: right;
+
+
+}
+
+#upgrade-button {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 80px;
+    border: 1px solid white;
+    display: inline;
+    border-radius: 30px;
+    padding: 16px;
+    font-size: 10px;
+}
+
+/* utility */
+
+.color-white {
+    color: white;
 }
