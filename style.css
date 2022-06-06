@@ -36,7 +36,7 @@ footer {
 
 main {
     height: 100%;
-
+   
     margin-left: 230px;
     overflow-y: auto;
     background-color: #141922;
@@ -48,13 +48,14 @@ header {
     position: sticky;
     top: 0;
     text-align: right;
+    opacity: 0.8;
 
 
 }
 
 #upgrade-button {
-    text-transform: uppercase;
-    font-weight: 600;
+
+
     line-height: 80px;
     border: 1px solid white;
     display: inline;
@@ -63,8 +64,46 @@ header {
     font-size: 10px;
 }
 
+li {
+    margin-bottom: 10px;
+}
+
+.logo {
+   height: 80px;
+}
+
+.sidebar-footer{}
+
 /* utility */
 
 .color-white {
     color: white;
+}
+
+.color-lightgrey {
+    color: rgba(196, 196, 196, 0.562);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-weight {
+    font-weight: 600
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 50px;
+}
+
+.list-none {
+    list-style-type: none;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
 }
