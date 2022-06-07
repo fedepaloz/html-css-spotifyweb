@@ -86,9 +86,11 @@ li {
     margin-bottom: 30px;
 }
 
-.line{height: 1px;
-background-color: white;
-width: 90%;}
+.line {
+    height: 1px;
+    background-color: white;
+    width: 90%;
+}
 
 
 
@@ -140,12 +142,32 @@ h5 {
     width: calc(100% / 6 - 20px);
     text-align: center;
     padding: 20px;
+    cursor: pointer;
+    position: relative;
 }
 
 .song-container {
     padding: 30px;
 }
 
+.song-col:hover img {
+    transform: scale(1.1) translateY(-10px);
+}
+
+img {
+    transition: 0.5s;
+}
+
+
+.song-col:hover img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+}
 
 /* footer */
 
@@ -321,9 +343,10 @@ figure {
     margin: 0 20px;
 }
 
-.mg-right-1{margin-right: 10px;}
+.mg-right-1 {
+    margin-right: 10px;
+}
 
 .mg-right-2 {
     margin-right: 20px;
 }
-
