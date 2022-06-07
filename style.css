@@ -162,12 +162,16 @@ figure {
     line-height: 50px;
 }
 
+.footer-left-actions .fa-regular{margin:0 2px;}
+.footer-left-actions{margin-left: 20px;}
+
 /* footer centrale */
 .footer-centre {
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .player-bar .fa-solid {
@@ -178,15 +182,48 @@ figure {
     background-color: grey;
     height: 5px;
     width: 50%;
+    border-radius: 20px;
+}
+
+.bar::after {
+    content: '';
+    display: block;
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    border-radius: 20px
 }
 
 .status-bar {
-
+margin-top: 20px;
     width: 100%;
     justify-content: center;
 }
 
-.min-bar{line-height: 5px;}
+.min-bar {
+    line-height: 5px;
+    margin: 0 20px;
+}
+
+
+
+/* footer destra */
+
+.footer-right{width: 20%;
+align-items: center;
+}
+
+.volume
+{width: 50%;
+background-color: gray;
+height: 5px;
+border-radius: 20px;}
+
+.volume::after{content: '';
+display: block;background-color: white;
+height: 100%;
+width: 30%;}
+.footer-right .fa-solid{margin: 0 10px;}
 
 /* utility */
 
@@ -241,3 +278,7 @@ figure {
 .border-radius-50 {
     border-radius: 50%;
 }
+
+
+.mg-1{margin: 0 10px;}
+.mg-2{margin: 0 20px;}
