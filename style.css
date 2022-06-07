@@ -23,10 +23,10 @@ img {
     height: calc(100vh - 100px);
 }
 
-footer {
-    height: 100px;
-    background-color: #282828;
-}
+
+
+/* sidebar */
+
 
 .sidebar {
     position: absolute;
@@ -48,13 +48,6 @@ footer {
     height: 90px;
 }
 
-main {
-    height: 100%;
-
-    margin-left: 230px;
-    overflow-y: auto;
-    background-color: #141922;
-}
 
 
 /* header e bottone upgrade */
@@ -85,12 +78,28 @@ header {
 /* barra laterale */
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .logo {
-    height: 80px;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
+
+
+
+/* main */
+
+main {
+    height: 100%;
+
+    margin-left: 230px;
+    overflow-y: auto;
+    background-color: #141922;
+}
+
+
+
 
 /* menu sopra le canzoni */
 
@@ -134,6 +143,13 @@ h5 {
 }
 
 
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: #282828;
+}
+
 
 /* sezione footer sinistra */
 
@@ -162,8 +178,13 @@ figure {
     line-height: 50px;
 }
 
-.footer-left-actions .fa-regular{margin:0 2px;}
-.footer-left-actions{margin-left: 20px;}
+.footer-left-actions .fa-regular {
+    margin: 0 2px;
+}
+
+.footer-left-actions {
+    margin-left: 20px;
+}
 
 /* footer centrale */
 .footer-centre {
@@ -195,7 +216,7 @@ figure {
 }
 
 .status-bar {
-margin-top: 20px;
+    margin-top: 20px;
     width: 100%;
     justify-content: center;
 }
@@ -209,21 +230,29 @@ margin-top: 20px;
 
 /* footer destra */
 
-.footer-right{width: 20%;
-align-items: center;
+.footer-right {
+    width: 20%;
+    align-items: center;
 }
 
-.volume
-{width: 50%;
-background-color: gray;
-height: 5px;
-border-radius: 20px;}
+.volume {
+    width: 50%;
+    background-color: gray;
+    height: 5px;
+    border-radius: 20px;
+}
 
-.volume::after{content: '';
-display: block;background-color: white;
-height: 100%;
-width: 30%;}
-.footer-right .fa-solid{margin: 0 10px;}
+.volume::after {
+    content: '';
+    display: block;
+    background-color: white;
+    height: 100%;
+    width: 30%;
+}
+
+.footer-right .fa-solid {
+    margin: 0 10px;
+}
 
 /* utility */
 
@@ -280,5 +309,14 @@ width: 30%;}
 }
 
 
-.mg-1{margin: 0 10px;}
-.mg-2{margin: 0 20px;}
+.mg-1 {
+    margin: 0 10px;
+}
+
+.mg-2 {
+    margin: 0 20px;
+}
+
+.mg-right-2 {
+    margin-right: 20px;
+}
