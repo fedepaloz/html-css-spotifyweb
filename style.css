@@ -25,7 +25,6 @@ img {
 
 footer {
     height: 100px;
-
     background-color: #282828;
 }
 
@@ -39,6 +38,14 @@ footer {
 
     display: flex;
     flex-direction: column;
+}
+
+.upper-sidebar{
+    height: calc(100% - 90px);
+}
+
+.sidebar-footer{
+    height: 90px;
 }
 
 main {
@@ -125,6 +132,13 @@ h5 {
 .song-container {
     padding: 30px;
 }
+
+
+
+/* sezione footer sinistra */
+
+figure{width: 50px;
+height: 50px;}
 
 /* utility */
 
